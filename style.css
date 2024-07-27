@@ -25,12 +25,9 @@ i {
   gap: 14px;
 }
 
-.header-icons a i {
-  animation: scales 0.8s infinite alternate;
-}
-
 .header-icons a:hover i {
   color: #d34040;
+   animation: scales 0.8s infinite alternate;
 }
 
 @keyframes scales {
@@ -136,10 +133,10 @@ i {
   font-size: 18px;
   font-weight: 600;
   margin: 14px 0;
-  animation: scaledbutton 0.8s alternate infinite;
 }
 
 .button-contact:hover {
+  animation: scaledbutton 0.8s alternate infinite;
   background-color: #b42b2b;
 }
 
